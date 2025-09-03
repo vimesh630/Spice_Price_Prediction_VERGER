@@ -1,0 +1,25 @@
+{
+  "sequence_length": 12,
+  "model_architecture": {
+    "input_shape": [
+      null,
+      12,
+      42
+    ],
+    "layers": [
+      "LSTM",
+      "Dropout",
+      "LSTM",
+      "Dropout",
+      "Dense",
+      "Dense"
+    ],
+    "total_params": 139073
+  },
+  "training_info": {
+    "timestamp": "20250903_101119",
+    "mae": 102.01526364474826,
+    "rmse": 149.5377001829031,
+    "r2": 0.968803819333058
+  }
+}
