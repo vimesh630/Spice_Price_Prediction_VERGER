@@ -1,0 +1,41 @@
+{
+  "sequence_length": 12,
+  "model_architecture": {
+    "input_shape": [
+      null,
+      12,
+      42
+    ],
+    "layers": [
+      "GRU",
+      "Dropout",
+      "GRU",
+      "Dropout",
+      "Dense",
+      "Dense"
+    ],
+    "total_params": 284545
+  },
+  "training_info": {
+    "timestamp": "20250923_151802",
+    "mae": 65.5037123918673,
+    "rmse": 97.06531593817778,
+    "r2": 0.9872285139188475,
+    "tuning_used": true,
+    "tuning_method": "optuna",
+    "best_params": {
+      "units1": 64,
+      "units2": 256,
+      "dropout1": 0.1,
+      "dropout2": 0.1,
+      "dense_units": 64,
+      "learning_rate": 0.0024944594213775362,
+      "layer_type": "GRU",
+      "use_batch_norm": false,
+      "optimizer": "adam"
+    },
+    "epochs_trained": 89,
+    "final_train_loss": 0.007089640945196152,
+    "final_val_loss": 0.013636086136102676
+  }
+}
