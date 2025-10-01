@@ -39,7 +39,7 @@ The **Cinnamon Price Forecasting System** is a comprehensive machine learning so
 
 ### 🎬 Demo
 
-![Forecast Dashboard](assets/dashboard_preview.png)
+![Forecast Dashboard](assets/output.png)
 *Interactive forecast dashboard with confidence intervals and smart alerts*
 
 ---
